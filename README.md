@@ -37,3 +37,9 @@ Chromium/Playwrightで全21画像のデコード、料理写真の切替、360/3
 公開先: https://kenkenta51-max.github.io/SAMPLE-LP/
 
 `main`へのpushで既存の「Deploy to GitHub Pages」が実行されます。公開アーティファクトは `index.html` と `.nojekyll` のみです。納品ZIP、GIF、旧サイトの保存ファイルはサイトへ含めません。
+
+
+## 併設LP：Padobul
+
+パドブルの人物・光沢背景を追加した版は [padobul/index.html](padobul/index.html) に保存しています。公開URLは https://kenkenta51-max.github.io/SAMPLE-LP/padobul/ です。
+トップページのNUTORYおよび旧版の保存領域 `archive/padobul/` は変更せず、GitHub Pagesの公開アーティファクトへ `padobul/index.html` を追加しています。
