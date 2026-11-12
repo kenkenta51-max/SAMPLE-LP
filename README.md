@@ -29,4 +29,11 @@ Chromium/Playwrightで全21画像のデコード、料理写真の切替、360/3
 
 実在の商品・販売事業者ではありません。価格・風味・原料・製法・保存・栄養数値は架空の設定であり、実製品の分析・認証結果ではありません。画像はAI生成です。実際の注文・決済・配送・個人情報取得・アクセス解析は行いません。コレクションはブラウザ内だけで保存します。
 
-旧環境の完成物は取得できず、引き継ぎ仕様から再構築したものを改修しています。制作前のcocori HTMLは `/tmp/nutory/previous-index.html` に退避済みです（ZIPには含めません）。納品専用ブランチを利用し、`main` と `.github/workflows/pages.yml` は変更せず、サイトのデプロイは行いません。
+旧環境の完成物は取得できず、引き継ぎ仕様から再構築したものを改修しています。制作前のcocori HTMLは `/tmp/nutory/previous-index.html` に退避済みです（ZIPには含めません）。NUTORYを`main`の公開対象にし、既存の `.github/workflows/pages.yml` を利用してGitHub Pagesへデプロイします。以前のmainのPadobulサイトは `archive/padobul/` とGit履歴に保存しています。
+
+
+## GitHub Pagesへの公開
+
+公開先: https://kenkenta51-max.github.io/SAMPLE-LP/
+
+`main`へのpushで既存の「Deploy to GitHub Pages」が実行されます。公開アーティファクトは `index.html` と `.nojekyll` のみです。納品ZIP、GIF、旧サイトの保存ファイルはサイトへ含めません。
