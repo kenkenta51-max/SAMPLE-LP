@@ -33,6 +33,10 @@ jobs:
           cp index.html .nojekyll _site/
           mkdir -p _site/padobul
           cp padobul/index.html _site/padobul/index.html
+          cp -R collection _site/collection
+          mkdir -p _site/archive/cocori _site/archive/padobul
+          cp archive/cocori/index.html _site/archive/cocori/index.html
+          cp archive/padobul/index.html _site/archive/padobul/index.html
       - name: Upload the website
         uses: actions/upload-pages-artifact@v3
         with:
