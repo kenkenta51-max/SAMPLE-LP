@@ -2,14 +2,13 @@
 
 公開URL: https://kenkenta51-max.github.io/SAMPLE-LP/collection/
 
-SAMPLE-LPの全4ブランチ、main内のHTML、納品データとGit履歴を確認し、3ブランド・4ページを収録しました。同一HTMLのブランチやZIP、制作途中の修正履歴は重複掲載していません。
+SAMPLE-LPの全4ブランチ、main内のHTML、納品データとGit履歴を確認し、3ブランド・3ページを収録しています。Padobulは現行版1件に統一し、保存版は一覧から除外しました。同一HTMLのブランチやZIP、制作途中の修正履歴は重複掲載していません。
 
 | LP | 公開パス（/SAMPLE-LP/配下） | 出典 |
 | --- | --- | --- |
 | NUTORY / 너토리 | `/` | mainの`index.html`。delivery/nutory-cm-20261112の完成版と同一 |
 | Padobul / パドブル / 파도불 | `/padobul/` | mainの`padobul/index.html`。codex/padobul-lp-previewの完成版と同一 |
 | cocori / ココリ | `/archive/cocori/` | 初回コミット`9dfbd70`の`index.html`を変更せず復元 |
-| Padobul 保存版 | `/archive/padobul/` | mainの`archive/padobul/index.html`。既存の保存版をそのまま公開 |
 
 `codex/padobul-people-enamel`はmainと同じ収録LPです。制作途中のNUTORY・PadobulのリビジョンはGit履歴に残っています。
 
@@ -32,4 +31,4 @@ SAMPLE-LPの全4ブランチ、main内のHTML、納品データとGit履歴を�
 
 ## 確認
 
-Chromium/Playwrightで、画像の読み込み、検索・複数語検索、0件表示、お気に入りの追加・削除・再読込、名前順、全4リンク、360/390/768/1440pxの横幅、保存領域が使用できない場合を確認。JavaScriptエラーなし。
+Chromium/Playwrightで、画像の読み込み、検索・複数語検索、0件表示、お気に入りの追加・削除・再読込、名前順、全3リンク、360/390/768/1440pxの横幅、保存領域が使用できない場合を確認。JavaScriptエラーなし。

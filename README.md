@@ -47,4 +47,4 @@ Chromium/Playwrightで全21画像のデコード、料理写真の切替、360/3
 
 ## LP Collection
 
-全LPのサムネイル・公開リンク・検索・お気に入りを備えたコレクションを https://kenkenta51-max.github.io/SAMPLE-LP/collection/ に追加しました。NUTORYとPadobulの現行版に加え、Git履歴から復元したcocoriとPadobul保存版を掲載しています。詳細は [collection/README.md](collection/README.md) を参照してください。既存のNUTORY・PadobulのHTMLとURLは維持しています。公開アーティファクトには、上記LPに加えて`collection/`と`archive/cocori/index.html`、`archive/padobul/index.html`を含めます。
+全LPのサムネイル・公開リンク・検索・お気に入りを備えたコレクションを https://kenkenta51-max.github.io/SAMPLE-LP/collection/ に追加しました。NUTORYとPadobulの現行版に加え、Git履歴から復元したcocoriを掲載しています。Padobulは現行版1件に統一しています。詳細は [collection/README.md](collection/README.md) を参照してください。既存のNUTORY・PadobulのHTMLとURLは維持しています。公開アーティファクトには、上記LPに加えて`collection/`と`archive/cocori/index.html`、`archive/padobul/index.html`を含めます。
